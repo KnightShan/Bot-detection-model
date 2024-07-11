@@ -20,16 +20,16 @@ Data Source: Collect a labeled dataset of Twitter users, where each user is tagg
 
 # Data Preprocessing:
 Cleaning: Remove any missing or irrelevant data.
-Feature Engineering:
+<br/> Feature Engineering:
 Convert categorical features (e.g., presence of profile picture) into numerical format.
 Normalize numerical features to a consistent scale.
-Splitting Data: Divide the dataset into training and testing sets (e.g., 80% training, 20% testing).
+<br/> Splitting Data: Divide the dataset into training and testing sets (e.g., 80% training, 20% testing).
 
 # Model Development:
 Algorithm Selection: Choose logistic regression due to its simplicity and effectiveness for binary classification tasks.
-Training:
+<br/> Training:
 Use the training data to fit the logistic regression model.
 Optimize the model parameters to minimize the binary cross-entropy loss function.
-Evaluation:
+<br/> Evaluation:
 Validate the model using the testing dataset.
 Calculate performance metrics such as accuracy, precision, recall, and F1-score to evaluate the model’s effectiveness.
