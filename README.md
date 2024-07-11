@@ -5,7 +5,7 @@ Develop a machine learning model to detect Twitter bots, utilizing the logistic 
 
 # Data Collection:
 Data Source: Collect a labeled dataset of Twitter users, where each user is tagged as either a bot or a human.
-Features: Extract relevant features such as:
+<br/> Features: Extract relevant features such as:
 - User ID: Unique identifier for each user.
 - Username: The handle or name of the user.
 - Tweet: Content of the user's tweet.
