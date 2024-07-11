@@ -6,17 +6,17 @@ Develop a machine learning model to detect Twitter bots, utilizing the logistic 
 # Data Collection:
 Data Source: Collect a labeled dataset of Twitter users, where each user is tagged as either a bot or a human.
 Features: Extract relevant features such as:
-User ID: Unique identifier for each user.
-Username: The handle or name of the user.
-Tweet: Content of the user's tweet.
-Retweet Count: Number of retweets the user's tweet has received.
-Mention Count: Number of mentions in the user's tweets.
-Follower Count: Number of followers the user has.
-Verified: Whether the user is verified (boolean).
-Bot Label: Label indicating if the user is a bot (1) or human (0).
-Location: Location information of the user.
-Created At: Account creation date.
-Hashtags: Number of hashtags used in the user's tweets.
+- User ID: Unique identifier for each user.
+- Username: The handle or name of the user.
+- Tweet: Content of the user's tweet.
+- Retweet Count: Number of retweets the user's tweet has received.
+- Mention Count: Number of mentions in the user's tweets.
+- Follower Count: Number of followers the user has.
+- Verified: Whether the user is verified (boolean).
+- Bot Label: Label indicating if the user is a bot (1) or human (0).
+- Location: Location information of the user.
+- Created At: Account creation date.
+- Hashtags: Number of hashtags used in the user's tweets.
 
 # Data Preprocessing:
 Cleaning: Remove any missing or irrelevant data.
